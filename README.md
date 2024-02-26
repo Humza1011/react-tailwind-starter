@@ -59,7 +59,6 @@ This starter template is designed to kickstart your React projects using Tailwin
 - `index.css`: Global stylesheet.
 - `main.jsx`: The entry point of your React application.
 - `routes.jsx`: Routing setup using React Router.
-- `tailwind.config.js`: Tailwind CSS configuration file.
 
 ## Usage
 
