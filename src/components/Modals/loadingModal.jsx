@@ -9,7 +9,7 @@ const LoadingModal = ({ loading }) => {
   return (
     <Modal
       isOpen={loading}
-      className="relative bg-transparent border-none outline-none"
+      className="relative bg-transparent border-none outline-hidden"
       overlayClassName="fixed z-20 top-0 left-0 right-0 bottom-0 bg-[#000000]/50 flex items-center justify-center"
       contentLabel="Loading"
     >

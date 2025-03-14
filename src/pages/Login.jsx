@@ -65,7 +65,7 @@ const Login = () => {
               render={({ field }) => (
                 <input
                   {...field}
-                  className="border rounded w-full py-2 px-3 text-gray-700 leading-tight outline-none bg-primaryLight focus:border-primary"
+                  className="border rounded-sm w-full py-2 px-3 text-gray-700 leading-tight outline-hidden bg-primaryLight focus:border-primary"
                   id="email"
                   type="email"
                   placeholder="Enter your email"
@@ -93,7 +93,7 @@ const Login = () => {
               render={({ field }) => (
                 <input
                   {...field}
-                  className="border rounded w-full py-2 px-3 text-gray-700 leading-tight outline-none bg-primaryLight focus:border-primary"
+                  className="border rounded-sm w-full py-2 px-3 text-gray-700 leading-tight outline-hidden bg-primaryLight focus:border-primary"
                   id="password"
                   type="password"
                   placeholder="Enter your password"
@@ -108,7 +108,7 @@ const Login = () => {
           </div>
 
           <button
-            className="bg-primary hover:bg-primary/60 text-white font-bold py-2 px-6 rounded-full outline-none self-center flex items-center gap-5"
+            className="bg-primary hover:bg-primary/60 text-white font-bold py-2 px-6 rounded-full outline-hidden self-center flex items-center gap-5"
             type="submit"
           >
             SIGN IN

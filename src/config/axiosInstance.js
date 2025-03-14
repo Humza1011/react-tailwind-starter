@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Create an Axios instance with custom configurations
 const axiosInstance = axios.create({
-  withCredentials: true,
+  // withCredentials: true,
   baseURL: "http://localhost:3000",
 });
 
